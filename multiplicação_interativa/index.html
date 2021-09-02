@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Multiplicação Interativa</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Marcela Amorim" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="background">
+      <form name="theForm">
+        <h1>Multiplicação</h1>
+        <h3>
+          Insira o multiplicando, o multiplicador e clique no botão para ver o
+          produto
+        </h3>
+        <input type="number" name="multiplicando" />
+        X
+        <input type="number" name="multiplicador" />
+        =
+        <input type="number" name="produto" />
+        <input
+          type="button"
+          value="Ver resultado"
+          onClick="doMath()"
+          name="button"
+          class="button"
+        />
+      </form>
+    </div>
+  </body>
+</html>
