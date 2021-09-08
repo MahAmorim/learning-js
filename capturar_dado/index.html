@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Captura de Dados</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Marcela Amorim" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="background">
+      <form name="theForm">
+        <h1>Captura de Dados</h1>
+        <h3>
+          Insira um dado qualquer que deseja e clique no botão para apresentá-lo
+        </h3>
+        <input type="text" id="valor" />
+        <input
+          type="button"
+          value="Ver dado capturado"
+          onClick="capturar()"
+          name="button"
+          class="button"
+        />
+      </form>
+      <p type="text" id="valorDigitado"></p>
+    </div>
+  </body>
+</html>
